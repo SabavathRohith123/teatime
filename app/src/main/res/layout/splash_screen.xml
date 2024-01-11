@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/tea3"
+    tools:context=".SplashScreen">
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organic Tea"
+        android:textColor="@color/orange"
+        android:textSize="60dp"
+        android:typeface="serif"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="35dp"/>
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAND MADE GAIWAN TEA SET"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview3"
+        android:indeterminateTint="#FFEB3B"/>
+
+
+
+</RelativeLayout>

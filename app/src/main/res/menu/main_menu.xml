@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:title="Home"/>
+    <item android:id="@+id/shophome"
+        android:title="Shop Home"/>
+    <item android:id="@+id/teaRoom"
+        android:title="Dark Home Tea Room"/>
+    <item android:id="@+id/metromatcha"
+        android:title="Metro Matcha"/>
+    <item android:id="@+id/showcases"
+        android:title="Virtual Showcases"/>
+
+</group>
+    <item android:title="PAGE">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item android:id="@+id/aboutUs"
+                    android:title="About Us"/>
+                <item android:id="@+id/history"
+                    android:title="Our History"/>
+                <item android:id="@+id/Ourprocess"
+                    android:title="Our Process"/>
+                <item android:id="@+id/restaurantMenu"
+                    android:title="Restaurant Menu"/>
+                <item android:id="@+id/booking"
+                    android:title="Booking Table"/>
+                <item android:id="@+id/team"
+                    android:title="Our Team"/>
+                <item android:id="@+id/pricing"
+                    android:title="Pricing Plan"/>
+                <item android:id="@+id/faqs"
+                    android:title="FAQs"/>
+                <item android:id="@+id/touch"
+                    android:title="Get In Touch"/>
+                <item android:id="@+id/contactUs"
+                    android:title="Contact Us"/>
+                <item android:id="@+id/error"
+                    android:title="402 Error Page"/>
+                <item android:id="@+id/commingSoon"
+                    android:title="Comming Soon"/>
+
+            </group>
+
+
+                </menu>
+            </item>
+    <item android:title="SHOP">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/shopLayouts"
+                    android:title="Shop Layouts"/>
+                <item android:id="@+id/productLayouts"
+                    android:title="Product Layouts"/>
+                <item android:id="@+id/productTypes"
+                    android:title="Product Types"/>
+                <item android:id="@+id/shopPages"
+                    android:title="Shop Pages"/>
+
+            </group>
+
+
+
+
+        </menu>
+    </item>
+    <item android:title="GAllARY">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/gallary2Columns"
+                    android:title="Gallary2 Columns"/>
+                <item android:id="@+id/gallary3Columns"
+                    android:title="Gallary3 Columns"/>
+                <item android:id="@+id/gallary4Columns"
+                    android:title="Gallary4 Columns"/>
+                <item android:id="@+id/gallary_mixedStyle"
+                    android:title="Gallary Mixed Style"/>
+
+            </group>
+
+
+
+
+        </menu>
+    </item>
+    <item android:title="BLOG">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/noSidebar"
+                    android:title="No Sidebar"/>
+                <item android:id="@+id/leftSidebar"
+                    android:title="Left Sidebar"/>
+                <item android:id="@+id/rightSidebar"
+                    android:title="Right Sidebar"/>
+
+            </group>
+
+
+
+
+        </menu>
+    </item>
+</menu>
+
+
